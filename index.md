@@ -1,37 +1,665 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en-us">
 
-You can use the [editor on GitHub](https://github.com/GitCVfb/binfan.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
 
-### Markdown
+  <meta name="author" content="Bin Fan">
+  <meta name="description" content="Ph.D Candidate">
+  <link rel="alternate" hreflang="en-us" href="/">
+  <meta name="theme-color" content="#2962ff">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  <link rel="stylesheet" href="/css/academic.css">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Bin Fan">
+  <link rel="manifest" href="/index.webmanifest">
+  <!-- <link rel="icon" type="image/png" href="/images/icon_hu2065e2b3e3f9ec61858579cdb7515c4d_74858_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu2065e2b3e3f9ec61858579cdb7515c4d_74858_192x192_fill_lanczos_center_2.png"> -->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <link rel="canonical" href="/">
+  <meta property="twitter:card" content="summary">
+  <meta property="og:site_name" content="Bin Fan">
+  <meta property="og:url" content="/">
+  <meta property="og:title" content="Bin Fan">
+  <meta property="og:description" content="Ph.D Candidate"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  
 
-```markdown
-Syntax highlighted code block
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "/"
+}
+</script>
+  <title>Bin Fan</title>
 
-# Header 1
-## Header 2
-### Header 3
+</head>
 
-- Bulleted
-- List
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
 
-1. Numbered
-2. List
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
 
-**Bold** and _Italic_ and `Code` text
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
 
-[Link](url) and ![Image](src)
-```
+      <div id="search-box">
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+      </div>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+    </section>
+    <section class="section-search-results">
 
-### Jekyll Themes
+      <div id="search-hits">
+      </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GitCVfb/binfan.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    </section>
+  </div>
+</aside>
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Bin Fan</a>
+    </div>
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Bin Fan</a>
+    </div>
+
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content"> 
+      <ul class="navbar-nav d-md-inline-flex">
+        <li class="nav-item">
+          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#papers" data-target="#papers"><span>Publications</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards" data-target="#awards"><span>Awards &amp; Honors</span></a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#activities" data-target="#activities"><span>Activities</span></a>
+        </li>
+
+
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+
+
+<span class="js-widget-page d-none"></span>
+
+  <section id="about" class="home-section wg-about   " style="padding: 30px 0 20px 0;" >
+    <div class="container">
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+      <img class="avatar avatar-circle" src="/authors/admin/profile.jpg" alt="Avatar">
+      <div class="portrait-title">
+        <h2>Bin Fan</h2>
+        <h3>Ph.D Candidate</h3>
+        
+        <h3>
+          <a href="https://dianzi.nwpu.edu.cn/" target="_blank" rel="noopener">
+          <span>School of Electronics and Information, NPU</span>
+          </a>
+        </h3>
+      </div>
+      
+      <td>
+      <br>
+      <a href="cv/resume_binfan.pdf"><b>CV</b></a>
+        | <a href="https://scholar.google.com/citations?user=c6As1PcAAAAJ&hl=zh-CN"><b>Google Scholar</b></a>
+        | <a href="https://github.com/GitCVfb"><b>Github</b></a>
+      <br>
+      <br>
+      </td>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+<br>
+<p>I am a Ph.D. student advised by Professor <a href="https://scholar.google.com/citations?user=fddAbqsAAAAJ&hl=zh-CN">Yuchao Dai</a>, at School of Electronics and Information, Northwestern Polytechnical University (NPU), Xi'an, China.</p>
+
+<p> My research mainly focuses on camera pose estimation, image rectification, temporal super-resolution, and 3D reconstruction, especially regarding rolling shutter cameras. I am also interested in low-level geometric problems (e.g. structure from motion, SLAM) and image restoration tasks (e.g. deblurring).
+</p>
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <h3>Contact</h3>
+        <ul class="ul-contact fa-ul">
+          <li>          
+            <i class="fa-li fas fa-envelope"></i>
+            <div class="description">
+              <p class="course">binfan [at] mail.nwpu.edu.cn</p>
+<!--               <p class="course">pkyong7 [at] gmail.com</p> -->
+            </div>
+          </li>
+          <li>  
+            <i class="fa-li fas fa-map-marker"></i>
+            <div class="description">
+              <p class="course">No. 1 Dongxiang Road, Chang'an District, Xi'an, China, 710129</p>
+            </div> 
+          </li>
+          <li>  
+            <i class="fa-li fas fa-phone-alt"></i>
+            <div class="description">
+              <p class="course">(+86)-187-1738-1424</p>
+            </div> 
+          </li>   
+        </ul>        
+      </div>
+
+      <div class="col-md-6">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Ph.D. in Information and Communication Engineering</p>
+              <p class="institution">Apr 2019 - Present</p>
+              <p class="institution">NPU, Shaanxi, China</p>
+              <p class="institution">Advisor: Prof. Yuchao Dai</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">M.E. in Control Science and Engineering</p>
+              <p class="institution">Sep 2016 - Mar 2019</p>
+              <p class="institution">NPU, Shaanxi, China</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">B.S. in Statistics</p>
+              <p class="institution">Sep 2012 - Jun 2016</p>
+              <p class="institution">NPU, Shaanxi, China</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+
+
+<section id="experience" class="home-section wg-blank   " style="padding: 10px 0 10px 0;" >
+<div class="container">
+
+<div class="row">
+    <div class="col-lg-12">
+    <h1>Research Experiences</h1>
+      <!-- <h3 id="experience">Projects</h3> -->
+<ul>
+<li> <div style="float:left"><b>Motion and Depth Estimations of Stereo Rolling Shutter Camera</b></div> <div style="float:right">Apr 2019 - Sep 2022</div> <br>
+   DJI <br>
+   Principal Investigator</a>
+</li>
+  
+<li> <div style="float:left"><b>Monocular Dense 3D Reconstruction of Complex Dynamic Scenes</b></div> <div style="float:right">Jan 2019 - Dec 2022</div> <br>
+   National Natural Science Foundation of China <br>
+   Key personnel for localization and reconstruction based on monocular videos</a>
+</li>
+
+<li> <div style="float:left"><b>Outdoor Urban Level Positioning</b></div> <div style="float:right">Jun 2018 - Jun 2021</div> <br>
+   Huawei <br>
+   Key personnel for multi-sensor calibration and data acquisition</a>
+</li>
+
+<li> <div style="float:left"><b>Autonomous Perception and Intelligent Flight Technology</b></div> <div style="float:right">Jun 2017 - Dec 2018</div> <br>
+   Innovation Special Zone Project <br>
+   Key personnel for outfield experiments of obstacle detection and avoidance</a>
+</li>
+
+<li> <div style="float:left"><b>Dynamic Autonomous Calibration of Distributed Multi-Camera Arrays</b></div> <div style="float:right">Jan 2017 - Dec 2018</div> <br>
+   Natural Science Foundation of Shaanxi Province <br>
+   Key personnel for principle analysis and code debugging of multi-camera SLAM</a>
+</li>
+  
+</ul>
+    </div>
+</div>
+    </div>
+  </section>
+
+  <section id="papers" class="home-section wg-papers   " style="padding: 20px 0 20px 0;" >
+    <div class="container">
+      
+<div class="row">
+  
+    <div class="col-lg-12">
+      <h1>Publications</h1>
+    </div>
+    <div class="row">
+        <ul class="ul-papers">
+          <li>
+            <div class="img">
+              <img src="/papers/images/CVPR_2022_cvr.jpg" class="img-responsive" alt="">
+            </div>
+          <div class="description">
+            <p class="title">Context-Aware Video Reconstruction for Rolling Shutter Cameras</p>
+            <p class="authors"><b>Bin Fan</b>, Yuchao Dai, Zhiyuan Zhang, Qi Liu, Mingyi He</p>
+            <p class="institution">IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2022 <span style="font-weight:lighter"></span></p>
+            <p class="resources">
+              [
+                <a href = "https://arxiv.org/pdf/2205.12912.pdf">Paper</a> | <a href = "posters/poster-PDF-2141.pdf">Poster</a>
+              ]
+            </p>
+          </div> 
+        </li>
+          
+        <li>
+            <div class="img">
+              <img src="/papers/images/ICCV_2021_rs2sr.jpg" class="img-responsive" alt="">
+            </div>
+          <div class="description">
+            <p class="title">Inverting a Rolling Shutter Camera: Bring Rolling Shutter Images to High Framerate Global Shutter Video</p>
+            <p class="authors"><b>Bin Fan</b>, Yuchao Dai</p>
+            <p class="institution">IEEE International Conference on Computer Vision (<b>ICCV</b>), 2021 <span style="font-weight:lighter"></span></p>
+            <p class="resources">
+              [
+                <a href = "http://openaccess.thecvf.com/content/ICCV2021/papers/Fan_Inverting_a_Rolling_Shutter_Camera_Bring_Rolling_Shutter_Images_to_ICCV_2021_paper.pdf">Paper</a> | <a href = "posters/poster-PDF-1876.pdf">Poster</a>
+              ]
+            </p>
+          </div> 
+        </li>
+          
+        <li>
+            <div class="img">
+              <img src="/papers/images/ICCV_2021_sunet.jpg" class="img-responsive" alt="">
+            </div>
+          <div class="description">
+            <p class="title">SUNet: Symmetric Undistortion Network for Rolling Shutter Correction</p>
+            <p class="authors"><b>Bin Fan</b>, Yuchao Dai, Mingyi He</p>
+            <p class="institution">IEEE International Conference on Computer Vision (<b>ICCV</b>), 2021 <span style="font-weight:lighter"></span></p>
+            <p class="resources">
+              [
+                <a href = "https://openaccess.thecvf.com/content/ICCV2021/papers/Fan_SUNet_Symmetric_Undistortion_Network_for_Rolling_Shutter_Correction_ICCV_2021_paper.pdf">Paper</a> | <a href = "posters/poster-PDF-6199.pdf">Poster</a>
+              ]
+            </p>
+          </div> 
+        </li>
+                
+        <li>
+            <div class="img">
+              <img src="/papers/images/CVIU_2021_standard_RSS.jpg" class="img-responsive" alt="">
+            </div>
+          <div class="description">
+            <p class="title">Rolling-Shutter-Stereo-Aware Motion Estimation and Image Correction</p>
+            <p class="authors"><b>Bin Fan</b>, Yuchao Dai, Ke Wang</p>
+            <p class="institution">Computer Vision and Image Understanding (<b>CVIU</b>), 2021 <span style="font-weight:lighter"></span></p>
+            <p class="resources">
+              [
+                <a href = "https://www.sciencedirect.com/science/article/pii/S1077314221001405">Paper</a>
+              ]
+            </p>
+          </div> 
+        </li>
+          
+        <li>
+            <div class="img">
+              <img src="/papers/images/IVC_2022_generalized_RSS.jpg" class="img-responsive" alt="">
+            </div>
+          <div class="description">
+            <p class="title">Differential SfM and Image Correction for a Rolling Shutter Stereo Rig</p>
+            <p class="authors"><b>Bin Fan</b>, Yuchao Dai, Zhiyuan Zhang, Ke Wang</p>
+            <p class="institution">Image and Vision Computing (<b>IVC</b>), 2022 <span style="font-weight:lighter"></span></p>
+            <p class="resources">
+              [
+                <a href = "https://www.sciencedirect.com/science/article/pii/S0262885622001214">Paper</a>
+              ]
+            </p>
+          </div> 
+        </li>
+          
+        <li>
+            <div class="img">
+              <img src="/papers/images/SPL_2021_rsdpsnet.jpg" class="img-responsive" alt="">
+            </div>
+          <div class="description">
+            <p class="title">RS-DPSNet: Deep Plane Sweep Network for Rolling Shutter Stereo Images</p>
+            <p class="authors"><b>Bin Fan</b>, Ke Wang, Yuchao Dai, Mingyi He</p>
+            <p class="institution">IEEE Signal Processing Letters (<b>SPL</b>), 2021 <span style="font-weight:lighter"></span></p>
+            <p class="resources">
+              [
+                <a href = "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9495159">Paper</a>
+              ]
+            </p>
+          </div> 
+        </li>
+
+        <li>
+            <div class="img">
+              <img src="/papers/images/SPL_2021_radial.jpg" class="img-responsive" alt="">
+            </div>
+          <div class="description">
+            <p class="title">Fast and Robust Differential Relative Pose Estimation with Radial Distortion</p>
+            <p class="authors"><b>Bin Fan</b>, Yuchao Dai, Zhiyuan Zhang, Mingyi He</p>
+            <p class="institution">IEEE Signal Processing Letters (<b>SPL</b>), 2021 <span style="font-weight:lighter"></span></p>
+            <p class="resources">
+              [
+                <a href = "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9648026">Paper</a>
+              ]
+            </p>
+          </div> 
+        </li>
+        
+        <li>
+            <div class="img">
+              <img src="/papers/images/TCSVT_2022_vrnet.jpg" class="img-responsive" alt="">
+            </div>
+          <div class="description">
+            <p class="title">VRNet: Learning the Rectified Virtual Corresponding Points for 3D Point Cloud Registration</p>
+            <p class="authors">Zhiyuan Zhang, Jiadai Sun, Yuchao Dai, <b>Bin Fan</b>, Mingyi He</p>
+            <p class="institution">IEEE Transactions on Circuits and Systems for Video Technology (<b>TCSVT</b>), 2022 <span style="font-weight:lighter"></span></p>
+            <p class="resources">
+              [
+                <a href = "https://arxiv.org/pdf/2203.13241.pdf">Paper</a>
+              ]
+            </p>
+          </div> 
+        </li>
+
+        <li>
+            <div class="img">
+              <img src="/papers/images/SPL_2022_pml.jpg" class="img-responsive" alt="">
+            </div>
+          <div class="description">
+            <p class="title">Searching Dense Point Correspondences via Permutation Matrix Learning</p>
+            <p class="authors">Zhiyuan Zhang, Jiadai Sun, Yuchao Dai, <b>Bin Fan</b>, Qi Liu</p>
+            <p class="institution">IEEE Signal Processing Letters (<b>SPL</b>), 2022 <span style="font-weight:lighter"></span></p>
+            <p class="resources">
+              [
+                <a href = "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9769864">Paper</a>
+              ]
+            </p>
+          </div> 
+        </li>
+
+        <li>
+            <div class="img">
+              <img src="/papers/images/SCIS_2021.jpg" class="img-responsive" alt="">
+            </div>
+          <div class="description">
+            <p class="title">Homography-Based Camera Pose Estimation with Known Gravity Direction for UAV Navigation</p>
+            <p class="authors">Chunhui Zhao, <b>Bin Fan</b>, Jinwen Hu, Quan Pan, Zhao Xu</p>
+            <p class="institution">Science China Information Sciences (<b>Sci. China Inf. Sci.</b>), 2021 <span style="font-weight:lighter"></span></p>
+            <p class="resources">
+              [
+                <a href = "http://scis.scichina.com/en/2021/112204.pdf">Paper</a>
+              ]
+            </p>
+          </div> 
+        </li>
+
+        <li>
+            <div class="img">
+              <img src="/papers/images/Neurocomputing_2021.jpg" class="img-responsive" alt="">
+            </div>
+          <div class="description">
+            <p class="title">Self-Supervised Multi-Body Scene Flow Estimation</p>
+            <p class="authors">Jihuang Dai, Yuchao Dai, <b>Bin Fan</b></p>
+            <p class="institution">Neurocomputing (<b>Neurocomputing</b>), 2021 <span style="font-weight:lighter"></span></p>
+            <p class="resources">
+              [
+                <a href = "https://www.sciencedirect.com/science/article/pii/S0925231221011929">Paper</a>
+              ]
+            </p>
+          </div> 
+        </li>
+
+        <li>
+            <div class="img">
+              <img src="/papers/images/ICIP_2020.jpg" class="img-responsive" alt="">
+            </div>
+          <div class="description">
+            <p class="title">Relative Pose Estimation for Stereo Rolling Shutter Cameras</p>
+            <p class="authors">Ke Wang, <b>Bin Fan</b>, Yuchao Dai</p>
+            <p class="institution">IEEE International Conference on Image Processing (<b>ICIP</b>), 2020 <span style="font-weight:lighter"></span></p>
+            <p class="resources">
+              [
+                <a href = "https://arxiv.org/pdf/2006.07807.pdf?ref=https://githubhelp.com">Paper</a>
+              ]
+            </p>
+          </div> 
+        </li>
+
+        <li>
+            <div class="img">
+              <img src="/papers/images/ICUS_2017.jpg" class="img-responsive" alt="">
+            </div>
+          <div class="description">
+            <p class="title">Pose Estimation for Multi-Camera Systems</p>
+            <p class="authors">Chunhui Zhao, <b>Bin Fan</b>, Jinwen Hu, Limin Tian, Zhiyuan Zhang, Sijia Li, Quan Pan</p>
+            <p class="institution">IEEE International Conference on Unmanned Systems (<b>ICUS</b>), 2017 <span style="font-weight:lighter"></span></p>
+            <p class="resources">
+              [
+                <a href = "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8278403">Paper</a>
+              ]
+            </p>
+          </div> 
+        </li>
+          
+        </ul>      
+    </div>  
+</div>
+    </div>
+  </section>
+
+
+<section id="awards" class="home-section wg-blank   " style="padding: 20px 0 20px 0;" >
+    <div class="container">
+
+<div class="row">  
+    <div class="col-lg-12">
+      <h1>Awards &amp; Honors</h1>      
+      <!-- <h2 id="ms-students">MS students</h2> -->
+<ul>
+<li>CVPR 2022 Doctoral Consortium (Mentor: Prof. <a href="https://scholar.google.com/citations?hl=zh-CN&user=YYH0BjEAAAAJ&view_op=list_works&sortby=pubdate">Marc Pollefeys</a>), 2022</li>
+<li>Excellent Graduate Student, Northwestern Polytechnical University, China, 2019</li>
+<li>National Scholarship, 2018</li>
+<li>Third-Class of Northwest Division of 13th Graduate Electronic Design Competition, 2018</li>
+<li>Excellent Undergraduate Student, Northwestern Polytechnical University, China, 2016</li>
+<li>Outstanding Volunteer of 12th International Conference on Intelligent Unmanned Systems, 2016</li>
+<li>First-Class Academic Scholarship of Northwestern Polytechnical University, 2013-2020</li>
+</ul>
+    </div>
+</div>
+    </div>
+  </section>
+
+  
+<section id="activities" class="home-section wg-blank   " style="padding: 20px 0 20px 0;" >
+    <div class="container">
+
+<div class="row">  
+    <div class="col-lg-12">
+      <h1>Academic Activities</h1>      
+      <h2 id="reviewer">Talks</h2>
+<ul>
+<li>Get a Footage without Rolling Shutter Effect (Invited Talk), Samsung, Xi'an, China, Nov 2021</li>
+<li>International Conference on Computer Vision (Poster Presentation), Virtual attendance, Oct 2021</li>
+<li>Vision and Learning Seminar (VALSE), Hefei, China, Apr 2019</li>
+<li>International Conference on Control and Automation (Oral Presentation), Anchorage, USA, Jun 2018</li>
+<li>International Conference on Unmanned Systems (Oral Presentation), Beijing, China, Oct 2017</li>
+</ul>
+      <h2 id="reviewer">Reviewer</h2>
+<ul>
+<li>Journals: TPAMI, Sensors Journal, Applied Sciences</li>
+<li>Conferences: CVPR 2022, ECCV 2022, IROS 2021, ICME 2020-2021</li>
+</ul>
+    </div>
+</div>
+    </div>
+  </section>
+
+<!--
+<section id="activities" class="home-section wg-blank   " style="padding: 20px 0 20px 0;" >
+    <div class="container">
+<div class="row">  
+    <div class="col-lg-12">
+      <h1>Academic Activities</h1>      
+      <h2 id="reviewer">Reviewer</h2>
+<ul>
+<li>British Machine Vision Conference (BMVC) 2020</li>
+<!-- <li>ECCV 2020</li>
+<li>CVPR 2020</li>
+<li>AAAI 2020, 2021</li>
+<li>ICCV 2019</li>
+<li>NeurIPS 2020</li>
+<li>ICLR 2021</li>
+<li>Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</li>
+<li>Transactions on Neural Networks and Learning Systems (TNNLS)</li>
+<li>Transactions on Image Processing (TIP)</li> 
+</ul>
+    </div>
+</div>
+    </div>
+  </section>-->
+
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+
+    <script>const code_highlighting = false;</script>
+    <script>const isSiteThemeDark = false;</script>
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+
+    <script src="/js/academic.min.a8d7005002cb4a052fd6d721e83df9ba.js"></script>
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+    .
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
